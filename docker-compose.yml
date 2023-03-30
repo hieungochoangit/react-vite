@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  frontend:
+    container_name: react-vite
+    build: ./frontend
+    volumes:
+      - type: bind
+        source: ./frontend
+        target: /var/www/frontend
+    ports:
+      - 5173:5173
+    tty: true
