@@ -21,8 +21,6 @@ https://github.com/hieungochoangit/react-vite.git
 ```bash
 $ cd react-vite
 $ docker compose up -d --build
-$ docker exec -it react-vite sh
-$ yarn install && yarn dev
 ```
 
 => http://localhost:5173
